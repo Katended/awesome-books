@@ -40,7 +40,11 @@
         };
 
         // add event to 'add' button
-        add.addEventListener('click', () => {             
+        add.addEventListener('click', () => {    
+            if(bookName.value==="" ||  authorName.value===""){
+                alert("Name/Author missing!");
+                return;
+            }
             shelf.addBook({ title: bookName.value, writer: authorName.value });
         });
 
