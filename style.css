@@ -107,8 +107,8 @@ main {
   font-size: 40px;
   display: flex;
   justify-content: center;
-
 }
+
 #form {
   width: 100%;
   margin-left: 35%;
@@ -118,9 +118,11 @@ main {
   font-size: 40px;
   margin-left: 5%;
 }
+
 #form input {
   width: 50%;
 }
+
 #form button {
   margin-left: 20%;
   margin-top: 20px;
@@ -131,6 +133,7 @@ main {
   margin-left: 30%;
   margin-top: 7%;
 }
+
 #contact h1 {
   font-size: 30px;
   margin-left: 10%;
@@ -140,6 +143,7 @@ main {
   font-weight: 400;
   font-size: 15px;
 }
+
 #contact ul {
   margin-top: 20px;
   font-size: 15px;
