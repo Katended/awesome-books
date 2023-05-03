@@ -33,7 +33,7 @@
         </section>
         <section class="box" id="contact">
             <h1>Contact information</h1>
-        <p>Do you have any questions or you just want to say "Hello"?<br>
+            <p>Do you have any questions or you just want to say "Hello"?<br>
             You can reach out to us!
             <ul>
                 <li>Our e-mail mail@mail.com</li>
@@ -64,6 +64,8 @@
                 return;
             }
             shelf.addBook({ title: bookName.value, writer: authorName.value });
+            bookName.value="";
+            authorName.value ="";
         });
 
         document.addEventListener("click", function(e){

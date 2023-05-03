@@ -70,15 +70,11 @@ main {
 
 .navigation .awesome-link a {
   text-align: left;
-  font-size: 20px;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  border: 2px solid gray;
-  padding: 10px;
-  border-radius: 5px;
 }
 
 .book-list {
@@ -88,6 +84,9 @@ main {
 
 .container > div:nth-child(even) {
   background-color: lightgreen;
+  padding-top: 4px;
+  margin-top: 5px;
+  padding-bottom: 4px;
 }
 
 #date-time {
@@ -104,7 +103,7 @@ main {
 }
 
 #list h1 {
-  font-size: 40px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
 }
@@ -115,7 +114,7 @@ main {
 }
 
 #form h1 {
-  font-size: 40px;
+  font-size: 20px;
   margin-left: 5%;
 }
 
@@ -123,10 +122,14 @@ main {
   width: 50%;
 }
 
+button {
+  font-size: 14px;
+  box-shadow: 3px 2px 1px 1px black;
+}
+
 #form button {
-  margin-left: 20%;
-  margin-top: 20px;
-  font-size: 20px;
+  position: absolute;
+  right: 33%;
 }
 
 #contact {
@@ -135,7 +138,7 @@ main {
 }
 
 #contact h1 {
-  font-size: 30px;
+  font-size: 20px;
   margin-left: 10%;
 }
 
@@ -155,6 +158,7 @@ footer {
   border-radius: 3px;
   height: 30px;
   width: 90%;
-  border: 2px solid gray;
+  background: rgb(226, 223, 223);
   margin-top: 14%;
+  text-align: center;
 }
