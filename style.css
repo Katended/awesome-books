@@ -1,8 +1,9 @@
 html,
 body {
-  display: flex;
-  justify-content: center;
-  height: 100%;
+  font-family: sans-serif;
+  margin: 0;
+  width: 100%;
+  font-size: 0.9em;
 }
 
 .book {
@@ -14,6 +15,61 @@ body {
 .author {
   padding: 5px;
   margin-bottom: 10px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-decoration: none;
+  background: rgb(238, 13, 13);
+  padding: 20px 5px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+a:hover {
+  background: rgba(238, 13, 13, 0.75);
+}
+
+.navigation ul {
+  border: 1px solid rgb(212, 20, 20);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 3em 1.5em;
+  display: flex;
+}
+
+.navigation li {
+  flex: 3;
+  list-style: none;
+}
+
+.navigation .links {
+  flex: 1;
+}
+
+.navigation .awesome-link a {
+  text-align: left;
 }
 
 .container {
@@ -28,4 +84,17 @@ body {
 
 .container > div:nth-child(even) {
   background-color: lightgreen;
+}
+
+#date-time {
+  font-weight: bold;
+  text-align: right;
+  padding: 4px;
+}
+
+.box {
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  width: 100%;
+  display: none;
 }
