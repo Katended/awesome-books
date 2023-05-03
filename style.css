@@ -1,0 +1,31 @@
+html,
+body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.book {
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.author {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container > div:nth-child(even) {
+  background-color: lightgreen;
+}
