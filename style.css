@@ -70,11 +70,15 @@ main {
 
 .navigation .awesome-link a {
   text-align: left;
+  font-size: 20px;
 }
 
 .container {
   display: flex;
   flex-direction: column;
+  border: 2px solid gray;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .book-list {
@@ -97,4 +101,56 @@ main {
   -webkit-transition: 1s ease-in-out;
   width: 100%;
   display: none;
+}
+
+#list h1 {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+
+}
+#form {
+  width: 100%;
+  margin-left: 35%;
+}
+
+#form h1 {
+  font-size: 40px;
+  margin-left: 5%;
+}
+#form input {
+  width: 50%;
+}
+#form button {
+  margin-left: 20%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#contact {
+  margin-left: 30%;
+  margin-top: 7%;
+}
+#contact h1 {
+  font-size: 30px;
+  margin-left: 10%;
+}
+
+#contact p {
+  font-weight: 400;
+  font-size: 15px;
+}
+#contact ul {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+footer {
+  margin-left: 5%;
+  padding: 8px;
+  border-radius: 3px;
+  height: 30px;
+  width: 90%;
+  border: 2px solid gray;
+  margin-top: 14%;
 }
