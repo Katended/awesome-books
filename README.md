@@ -1,9 +1,7 @@
 <a name="readme-top"></a>
 <div align="center">
   
-  <img src="./images/port.PNG" alt="logo" width="140"  height="auto" />
-  <br/>
-
+ 
   <h3><b>Awesome Books</b></h3>
 
 </div>
@@ -97,7 +95,6 @@ Open index.html using a live server.
 
 ### Deployment <a name="live-demo"></a>
 
-Please click [here](https://katended.github.io/awesome-books/index.html) to view a live demo
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -109,7 +106,7 @@ Please click [here](https://katended.github.io/awesome-books/index.html) to view
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]( https://katended.github.io/awesome-books/issues).
+Feel free to check the [issues page](https://github.com/Katended/awesome-books/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,6 +130,6 @@ If you like this project just give me a star ⭐️!
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://opensource.org/license/mit/) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
